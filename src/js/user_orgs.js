@@ -17,7 +17,7 @@ export default class UserOrgs extends Component {
 
 componentWillMount() {
 	let { user_name } = this.props.params;
-	ajax(`https://api.github.com/users/${user_name}/orgs?access_token=1dde8c348c02eac7a70b970d8cf6ef93788ab681`).then(orgs => {
+	ajax(`https://api.github.com/users/${user_name}/orgs`).then(orgs => {
 		this.setState({orgs})
 	});
 }
