@@ -1,5 +1,27 @@
 /* CSS Entry Point */
 
 // Turn on freq used libraries
-// @import 'normalize-css/normalize';
-// @import 'font-awesome/scss/font-awesome';
+@import 'normalize-css/normalize';
+@import 'font-awesome/scss/font-awesome';
+
+
+body {
+	background: #959dac;
+}
+
+a {
+	text-decoration: none;
+}
+
+.paper-weight {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.paper-style {
+	height: 100%;
+	width: 400px;
+	display: inline-block;
+	text-align: left;
+}

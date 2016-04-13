@@ -34,6 +34,8 @@
   "dependencies": {
     "jquery": "^2.2.3",
     "material-ui": "^0.15.0-alpha.2",
+    "node-font-awesome": "^1.0.2",
+    "normalize-css": "^2.3.1",
     "react": "^0.14.7",
     "react-dom": "^0.14.7",
     "react-nprogress": "^0.1.6",
